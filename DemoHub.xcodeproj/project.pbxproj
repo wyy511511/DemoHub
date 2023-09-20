@@ -14,6 +14,11 @@
 		54F7F5702ABA910A00232EA7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7F56F2ABA910A00232EA7 /* DataModel.swift */; };
 		54F7F5722ABA913100232EA7 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7F5712ABA913100232EA7 /* Define.swift */; };
 		54F7F5742ABA91AE00232EA7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7F5732ABA91AE00232EA7 /* GridView.swift */; };
+		54F7F57B2ABAAEC500232EA7 /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F7F5762ABAAEC500232EA7 /* bullElk.jpg */; };
+		54F7F57C2ABAAEC500232EA7 /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F7F5772ABAAEC500232EA7 /* bullTuleElkAndTwoFemales.jpg */; };
+		54F7F57D2ABAAEC500232EA7 /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F7F5782ABAAEC500232EA7 /* coyoteAndBison.jpg */; };
+		54F7F57E2ABAAEC500232EA7 /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F7F5792ABAAEC500232EA7 /* bobcat.jpg */; };
+		54F7F57F2ABAAEC500232EA7 /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F7F57A2ABAAEC500232EA7 /* bullElkSparring.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		54F7F56F2ABA910A00232EA7 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		54F7F5712ABA913100232EA7 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		54F7F5732ABA91AE00232EA7 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		54F7F5762ABAAEC500232EA7 /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		54F7F5772ABAAEC500232EA7 /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		54F7F5782ABAAEC500232EA7 /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		54F7F5792ABAAEC500232EA7 /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		54F7F57A2ABAAEC500232EA7 /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		54F7F55F2ABA901400232EA7 /* DemoHub */ = {
 			isa = PBXGroup;
 			children = (
+				54F7F5752ABAAEA000232EA7 /* Resources */,
 				54F7F5602ABA901400232EA7 /* DemoHubApp.swift */,
 				54F7F56F2ABA910A00232EA7 /* DataModel.swift */,
 				54F7F5732ABA91AE00232EA7 /* GridView.swift */,
@@ -76,6 +87,18 @@
 				54F7F5682ABA901600232EA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54F7F5752ABAAEA000232EA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54F7F5792ABAAEC500232EA7 /* bobcat.jpg */,
+				54F7F5762ABAAEC500232EA7 /* bullElk.jpg */,
+				54F7F57A2ABAAEC500232EA7 /* bullElkSparring.jpg */,
+				54F7F5772ABAAEC500232EA7 /* bullTuleElkAndTwoFemales.jpg */,
+				54F7F5782ABAAEC500232EA7 /* coyoteAndBison.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F7F57F2ABAAEC500232EA7 /* bullElkSparring.jpg in Resources */,
 				54F7F5692ABA901600232EA7 /* Preview Assets.xcassets in Resources */,
 				54F7F5652ABA901600232EA7 /* Assets.xcassets in Resources */,
+				54F7F57D2ABAAEC500232EA7 /* coyoteAndBison.jpg in Resources */,
+				54F7F57C2ABAAEC500232EA7 /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				54F7F57E2ABAAEC500232EA7 /* bobcat.jpg in Resources */,
+				54F7F57B2ABAAEC500232EA7 /* bullElk.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
